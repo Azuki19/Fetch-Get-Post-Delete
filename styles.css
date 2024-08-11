@@ -1,0 +1,143 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #333;
+}
+
+h1,
+h2 {
+	color: #444;
+	text-align: center;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 400px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #555;
+}
+
+input[type='number'],
+input[type='text'],
+textarea {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+textarea {
+	width: calc(100% - 20px);
+	height: 80px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	resize: none; /* Evita que el usuario pueda redimensionar manualmente */
+}
+
+#fetch-button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+#fetch-button:hover {
+	background-color: #247128;
+}
+
+#post-button {
+	background-color: #369d9d;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+#post-button:hover {
+	background-color: #188993;
+}
+
+#reset-button {
+	background-color: #757775;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+#reset-button:hover {
+	background-color: #3d3d3d;
+}
+
+#data-container {
+	width: 100%;
+	max-width: 800px;
+	margin-top: 20px;
+}
+
+.post {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header h3 {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.post-body p {
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.delete-button {
+	background-color: #ff4d4d;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+	background-color: #e64545;
+}
